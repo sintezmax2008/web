@@ -9,6 +9,7 @@
 	max-width: 1200px
 	margin: 0 auto
 	padding: 0 20px
+	clear: both
 
 .top
 	height: 100px
@@ -40,12 +41,67 @@
 
 		a:hover
 			border-bottom: 5px solid #ff6600
-			padding-bottom: 20px
+			padding-bottom: 30px
 			transition: 0.5s
 
 .about
-	height: 400px
+	height: 450px
 	background-color: #ff6600
-			
+
+	.about_img
+		height: 411px
+		width: 700px
+		background-image: url("../img/about.png")
+		background-repeat: no-repeat
+		float: left
+		
+	.about_text
+		float: right
+		max-width: 420px
+		height: 415px
+		border: 3px solid #fff
+		padding: 10px
+
+		h1
+			font-family: 'Open Sans Condensed', sans-serif
+			font-size: 30px
+			font-weight: 700
+			text-transform: capitalize
+			color: #fff
+			text-align: center
+			position: relative
+
+		h1:after
+			display: block
+			content: ""
+			width: 50px
+			height: 3px
+			background-color: #fff
+			position: absolute
+			top: 50px
+			left: 50%
+			margin-left: -25px
+
+		p
+			font-family: 'Open Sans Condensed', sans-serif
+			font-size: 18px
+			font-weight: 400
+			color: #fff
+			text-align: left
+			margin-top: 20px		
+		
+		a
+			font-family: 'Open Sans Condensed', sans-serif
+			font-weight: 700
+			text-transform: uppercase
+			text-decoration: none
+			color: #fff
+			float: right
+			border-bottom: 1px solid #ff6600
+			transition: 1s
 
 
+		a:hover
+			border-bottom: 3px solid #fff
+			padding-bottom: 10px
+			transition: 0.5s
