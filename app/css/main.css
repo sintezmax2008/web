@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Russo+One");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+.top {
+  height: 100px;
+  line-height: 100px;
+  border-top: 5px solid #ff6600; }
+  .top .logo {
+    float: left; }
+    .top .logo a {
+      font-family: 'Russo One', sans-serif;
+      font-size: 50px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #ff6600; }
+  .top .nav {
+    float: right; }
+    .top .nav li {
+      display: inline-block;
+      margin-left: 50px; }
+    .top .nav a {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #ff6600;
+      -webkit-transition: 1s;
+      transition: 1s;
+      border-bottom: 1px solid #fff; }
+    .top .nav a:hover {
+      border-bottom: 5px solid #ff6600;
+      padding-bottom: 20px;
+      -webkit-transition: 0.5s;
+      transition: 0.5s; }
+
+.about {
+  height: 400px;
+  background-color: #ff6600; }
