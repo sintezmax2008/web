@@ -215,7 +215,8 @@
 
 .contact {
   background-color: #ff6600;
-  color: #fff; }
+  color: #fff;
+  padding-bottom: 50px; }
   .contact .contact_top {
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -235,14 +236,64 @@
       top: 50px;
       left: 50%;
       margin-left: -25px; }
-  .contact .contact_bottom h1 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 400;
-    text-transform: uppercase; }
-  .contact .contact_bottom p {
+  .contact .contact_bottom {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    padding-top: 30px; }
+    .contact .contact_bottom h1 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-weight: 400;
+      text-transform: uppercase; }
+    .contact .contact_bottom p {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: #fff;
+      text-align: left;
+      margin-top: 20px; }
+    .contact .contact_bottom a {
+      text-decoration: none;
+      color: #fff; }
+    .contact .contact_bottom .contact_text {
+      padding-right: 50px; }
+  .contact .contact_form h1 {
+    padding-bottom: 8px; }
+  .contact .contact_form input, .contact .contact_form textarea {
+    outline: none;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    color: #fff;
-    text-align: left;
-    margin-top: 20px; }
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    height: 40px;
+    padding-left: 20px; }
+  .contact .contact_form input {
+    margin-right: 20px; }
+  .contact .contact_form textarea {
+    width: 600px;
+    height: 190px;
+    padding: 20px; }
+  .contact .contact_form .name {
+    width: 250px; }
+  .contact .contact_form .mail {
+    width: 325px; }
+  .contact .contact_form .phone {
+    width: 400px; }
+  .contact .contact_form .submit {
+    width: 200px;
+    padding: 0;
+    float: right;
+    -webkit-transition: 1s;
+    transition: 1s; }
+  .contact .contact_form .submit:hover {
+    color: #ff6600;
+    font-size: 20px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }

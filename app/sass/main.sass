@@ -232,6 +232,7 @@
 .contact
 	background-color: #ff6600
 	color: #fff
+	padding-bottom: 50px
 
 	.contact_top
 		text-align: center
@@ -256,6 +257,9 @@
 				margin-left: -25px
 
 	.contact_bottom
+		display: flex
+		justify-content: space-around
+		padding-top: 30px
 
 		h1
 			font-family: 'Open Sans Condensed', sans-serif
@@ -268,4 +272,55 @@
 			font-weight: 400
 			color: #fff
 			text-align: left
-			margin-top: 20px		
+			margin-top: 20px
+
+		a
+			text-decoration: none
+			color: #fff
+
+		.contact_text
+			padding-right: 50px
+	
+	.contact_form
+		h1
+			padding-bottom: 8px
+
+		input, textarea
+			outline: none
+			font-family: 'Open Sans Condensed', sans-serif
+			font-size: 18px
+			font-weight: 400
+			border-radius: 5px
+			border: none
+			margin-top: 20px
+			height: 40px
+			padding-left: 20px
+
+		input
+			margin-right: 20px
+
+		textarea
+			width: 600px
+			height: 190px
+			padding: 20px
+
+		.name
+			width: 250px
+
+		.mail
+			width: 325px
+
+		.phone
+			width: 400px
+
+		.submit
+			width: 200px
+			padding: 0
+			float: right
+			transition: 1s
+
+		.submit:hover
+			color: #ff6600
+			font-size: 20px
+			transition: 0.5s
+
