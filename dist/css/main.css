@@ -5,8 +5,12 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+body {
+  width: 1200px;
+  margin: 0 auto; }
+
 .inner {
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 20px;
   clear: both; }
@@ -211,6 +215,13 @@
   height: 258px;
   width: 250px;
   background-image: url("../img/kerpos.jpg");
+  background-repeat: no-repeat; }
+
+.work_block_2 .img_6 {
+  margin: 0 auto;
+  height: 258px;
+  width: 250px;
+  background-image: url("../img/val.jpg");
   background-repeat: no-repeat; }
 
 .contact {
