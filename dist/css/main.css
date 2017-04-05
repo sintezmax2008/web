@@ -10,7 +10,7 @@ body {
   margin: 0 auto; }
 
 .inner {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   clear: both; }
 
@@ -63,6 +63,7 @@ body {
     transition: 0.5s; }
 
 .about {
+  width: 100%;
   min-height: 450px;
   padding: 20px 0;
   background-color: #ff6600; }
@@ -198,21 +199,24 @@ body {
   height: 258px;
   width: 250px;
   background-image: url("../img/pet.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .img_2 {
   margin: 0 auto;
   height: 258px;
   width: 250px;
   background-image: url("../img/pi.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .img_3 {
   margin: 0 auto;
   height: 258px;
   width: 250px;
   background-image: url("../img/kp.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .img_4 {
   margin: 0 auto;
@@ -314,7 +318,7 @@ body {
   width: 40%; }
 
 .mail {
-  width: 53%; }
+  width: 50%; }
 
 .phone {
   width: 60%; }
