@@ -67,9 +67,10 @@ body {
     transition: 0.5s; }
 
 .about {
-  min-height: 450px;
+  height: 450px;
   padding: 20px 0;
-  background-color: #ff6600; }
+  background-color: #ff6600;
+  margin: 0 auto; }
 
 .about_img {
   height: 415px;
@@ -226,26 +227,29 @@ body {
   height: 258px;
   width: 250px;
   background-image: url("../img/ved.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .img_5 {
   margin: 0 auto;
   height: 258px;
   width: 250px;
   background-image: url("../img/kerpos.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .img_6 {
   margin: 0 auto;
   height: 258px;
   width: 250px;
   background-image: url("../img/val.jpg");
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .contact {
   background-color: #ff6600;
   color: #fff;
-  padding-bottom: 50px; }
+  padding-bottom: 20px; }
 
 .contact_top {
   text-align: center;
@@ -302,7 +306,7 @@ body {
   .contact_form input, .contact_form textarea {
     outline: none;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 400;
     -webkit-border-radius: 5px;
             border-radius: 5px;
@@ -313,7 +317,7 @@ body {
   .contact_form input {
     margin-right: 20px; }
   .contact_form textarea {
-    width: 97%;
+    width: 100%;
     height: 190px;
     padding: 20px; }
 
@@ -327,9 +331,8 @@ body {
   width: 60%; }
 
 .submit {
-  width: 25%;
-  padding: 0;
-  float: right;
+  width: 100px;
+  padding-right: 70px;
   -webkit-transition: 1s;
   transition: 1s; }
 
@@ -338,3 +341,100 @@ body {
   font-size: 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s; }
+
+@media all and (min-width: 1280px) and (max-width: 10000px) {
+  .inner {
+    width: 1200px; } }
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+  .about {
+    max-height: 380px; }
+  .about_img {
+    width: 58%; }
+  .about_text {
+    width: 40%;
+    height: 340px; }
+  .about_text h1, .work_text h1, .contact_top h1 {
+    font-size: 1.7em; }
+  .about_text h1:after, .work_text h1:after, .contact_top h1:after {
+    top: 45px; }
+  .about_text a, .about_text p, .work_text a, .work_text p, .contact_top a, .contact_top p {
+    font-size: 0.9em; }
+  .block h1, .block a {
+    font-size: 0.9em; }
+  .contact_text h1, .contact_form h1 {
+    font-size: 1.7em; }
+  .contact_text a, .contact_text p, .contact_text input, .contact_text textarea, .contact_form a, .contact_form p, .contact_form input, .contact_form textarea {
+    font-size: 0.9em; }
+  textarea {
+    max-height: 100px; }
+  .contact_bottom {
+    padding-top: 10px; } }
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .logo a {
+    font-size: 2.5em; }
+  .nav a {
+    font-size: 0.9em; }
+  .about {
+    display: none; }
+  .work_text h1, .contact_top h1 {
+    font-size: 1.7em; }
+  .work_text h1:after, .contact_top h1:after {
+    top: 45px; }
+  .work_text a, .work_text p, .contact_top a, .contact_top p {
+    font-size: 0.9em; }
+  .block {
+    width: 32%; }
+    .block h1, .block a {
+      font-size: 0.9em; }
+  .img_1, .img_2, .img_3, .img_4, .img_5, .img_6 {
+    width: 200px;
+    height: 200px; }
+  .contact_text h1, .contact_form h1 {
+    font-size: 1.5em; }
+  .contact_text a, .contact_text p, .contact_text input, .contact_text textarea, .contact_form a, .contact_form p, .contact_form input, .contact_form textarea {
+    font-size: 0.9em; }
+  textarea {
+    max-height: 100px; }
+  input {
+    max-height: 30px; }
+  .contact_bottom {
+    padding-top: 10px; }
+  .name, .mail, .phone {
+    width: 70%; } }
+
+@media all and (min-width: 640px) and (max-width: 767px) {
+  .nav {
+    display: none; }
+  .logo {
+    float: none;
+    margin: 0 auto;
+    width: 35%; }
+  .about {
+    display: none; }
+  .work_text h1, .contact_top h1 {
+    font-size: 1.7em; }
+  .work_text h1:after, .contact_top h1:after {
+    top: 45px; }
+  .work_text a, .work_text p, .contact_top a, .contact_top p {
+    font-size: 0.9em; }
+  .block {
+    width: 34%; }
+    .block h1, .block a {
+      font-size: 0.9em; }
+  .img_1, .img_2, .img_3, .img_4, .img_5, .img_6 {
+    width: 170px;
+    height: 170px; }
+  .contact_bottom .contact_form {
+    display: none; }
+  .contact_text h1, .contact_form h1 {
+    font-size: 1.5em; }
+  .contact_text a, .contact_text p, .contact_text input, .contact_text textarea, .contact_form a, .contact_form p, .contact_form input, .contact_form textarea {
+    font-size: 0.9em; }
+  textarea {
+    max-height: 100px; }
+  input {
+    max-height: 30px; }
+  .contact_bottom {
+    padding-top: 10px; } }
